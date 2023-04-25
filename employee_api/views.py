@@ -116,4 +116,4 @@ def department(request, dept_id):
 
     elif request.method == 'DELETE':
         dept.delete()
-        return Response("Department deleted successfully", status=status.HTTP_200_OK)
+        return Response("Department deleted successfully", status=status.HTTP_200_OK) 
