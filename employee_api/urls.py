@@ -10,3 +10,4 @@ urlpatterns = [
     path("employee/<int:eid>", views.employee),
     path("department/<int:dept_id>", views.department),
 ]
+ 
